@@ -1,0 +1,23 @@
+.container {
+  margin: 1em auto;
+  padding: 1em;
+  box-shadow: var(--default-shadow);
+  max-width: 720px;
+}
+
+.double-container {
+  margin: 1em auto;
+  width: 85%;
+}
+
+.container h2 {
+  font-weight: normal;
+}
+
+.quiz-params > * + * {
+  margin-top: 1em;
+}
+
+.quiz-params input, button, select {
+  display: block;
+}

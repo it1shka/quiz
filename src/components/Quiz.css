@@ -1,0 +1,23 @@
+.quiz-container {
+  margin: 1em auto;
+  max-width: 720px;
+}
+
+.quiz-container h1, h2 {
+  font-weight: normal;
+  margin: .25em 0em;
+}
+
+.quiz-container > button {
+  display: inline;
+}
+
+.quiz-container ul {
+  padding: 0;
+  margin: 4em 0em;
+  list-style-type: none;
+}
+
+.quiz-container ul > li + li {
+  margin-top: 1.25em;
+}
